@@ -1,4 +1,4 @@
-INSERT INFO books (id, title, author, genre, price, stock, published_year)
+INSERT INTO books (id, title, author, genre, price, stock, published_year)
 VALUES
 (1, 'The Hobbit', 'J.R.R. Tolkien', 'Fantasy', 10.99, 5, 1937),
 (2, '1984', 'George Orwell', 'Dystopian', 8.99, 12, 1949),
