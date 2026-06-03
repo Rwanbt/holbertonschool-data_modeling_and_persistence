@@ -1,4 +1,4 @@
-SELECT course.title AS course_title
+SELECT courses.title AS course_title
 FROM courses
 LEFT JOIN enrollments ON courses.id = enrollments.coruse_id
 GROUP BY courses.id, courses.title
